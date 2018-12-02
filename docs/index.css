@@ -1,0 +1,23 @@
+body{
+  font-size: 1em;
+}
+
+.main{
+  text-align: center;
+}
+
+.main a{
+  font-size: 3rem;
+}
+
+#info{
+  font-size: 2rem;
+  color: red;
+}
+
+#inputField{
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
