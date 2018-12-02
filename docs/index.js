@@ -1,5 +1,5 @@
 function craftUrl(url) {
-  return 'https://kutabareindian.pythonanywhere.com/?url=' + url
+  return 'https://kutabare.herokuapp.com/?url=' + url
 }
 
 function updateLink(url) {

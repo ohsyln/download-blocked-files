@@ -31,7 +31,7 @@ def application(environ, start_response):
     f.close()
 
     # Encrypt file
-    subprocess.Popen(['zip', '-P', '1234', encrypted_name, raw_name])
+    subprocess.Popen(['zip', '-P', '1234', encrypted_name, raw_name]).wait()
 
     # Read file
     f = open(encrypted_name,'rb')
